@@ -8,7 +8,12 @@
     <title>Vue Email List</title>
 </head>
 <body>
-    
+    <div id="app">
+        <h1>Vue Email List</h1>
+        <ul>
+            <li v-for="(email) in emails">{{ email }}</li>
+        </ul>
+    </div>  
     <script type="text/javascript" src="./js/script.js" defer></script>
 </body>
 </html>
